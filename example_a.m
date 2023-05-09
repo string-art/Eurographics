@@ -2,13 +2,13 @@ clc;
 clear;
 close all;
 
-% Cat
+% a
 
 % INFO: Pass an importance map using 'importanceMapPath', '<path>', ...
 stringArt( ...
-    'inputFilePath', 'input/cat.png', ... % path to the input file
-    'outputDirPath', 'output/cat', ... % path to the output directory
-    'outputFileNamePrefix', 'cat', ... % prefix of the output files
+    'inputFilePath', 'input/a.png', ... % path to the input file
+    'outputDirPath', 'output/a', ... % path to the output directory
+    'outputFileNamePrefix', 'a', ... % prefix of the output files
     'invertInput', true, ... % false -> reconstruct white area, true -> reconstruct black area
     'invertOutput', true, ... % false -> white string, true -> black string
     'numPins', 200, ... % number of pins that are placed on the frame (default is 256)
@@ -17,4 +17,4 @@ stringArt( ...
     'pinSideLength', 0.01, ... % physical side length of a pin with quadratic cross section in mm (default is 2)
     'superSamplingWindowWidth', 8, ... % side length of the super sampling window (default is 8)
     'minAngle', pi/8, ...   % Minimum angle (measured from frame center) between two connected pins (default is pi/8)
-    'dataPath', './data');
+    'dataPath', './data'); 

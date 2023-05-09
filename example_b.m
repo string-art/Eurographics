@@ -2,13 +2,13 @@ clc;
 clear;
 close all;
 
-% Cat
+% b
 
 % INFO: Pass an importance map using 'importanceMapPath', '<path>', ...
 stringArt( ...
-    'inputFilePath', 'input/cat.png', ... % path to the input file
-    'outputDirPath', 'output/cat', ... % path to the output directory
-    'outputFileNamePrefix', 'cat', ... % prefix of the output files
+    'inputFilePath', 'input/b.png', ... % path to the input file
+    'outputDirPath', 'output/b', ... % path to the output directory
+    'outputFileNamePrefix', 'b', ... % prefix of the output files
     'invertInput', true, ... % false -> reconstruct white area, true -> reconstruct black area
     'invertOutput', true, ... % false -> white string, true -> black string
     'numPins', 200, ... % number of pins that are placed on the frame (default is 256)
